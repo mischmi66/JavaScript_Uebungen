@@ -10,4 +10,5 @@ for (let i = 1; i <= 100; i++) {
   if (i % 5 === 0) output += "Buzz";
   //Hier prüfen wir, ob die Zahl (1-100) durch 5 teilbar ist und danach ein restwert von "0" bleibt
   console.log(output || i);
+  //Ist eine der beiden if's wahr, wird "Fizz" ausgegeben, wenn die andere wahr ist "Buzz", sind beide wahr, dann "Fizz Buzz", sonst "i"
 }
