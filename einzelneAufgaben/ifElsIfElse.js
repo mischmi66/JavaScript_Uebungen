@@ -4,6 +4,11 @@ function greaterNum(num1, num2) {
   } else {
     return num2 + " is greater than " + num1;
   }
+  else if (num1 === num2)
+  return num1 + 'is equal to' + num2;
+  {
+
+  }
 
   }
 
